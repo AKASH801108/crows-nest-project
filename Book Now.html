@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Crows Nest Salon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Crows Nest Salon</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="Book Now.html" class="active">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Book now</h2>
+    <form>
+      <label for="Name"> User Name</label>
+      <input type="text" id="name" required />
+      
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" required />
+      
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" required />
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Preferred Time</label>
+      <input type="time" id="time" required />
+      
+      <label for="PAYMENT">Payment Method</label>
+      <select id="payment" required>
+        <option value="credit">Credit Card</option>
+        <option value="debit">Debit Card</option>
+        <option value="cash">Cash</option>
+        <option value="upi">UPI</option>
+      </select>
+      
+      <label for="service">Service Required</label>
+      <select id="service" required>
+        <option value="haircut">Haircut</option>
+        <option value="coloring">Hair Coloring</option>
+        <option value="beard">Beard Grooming</option>
+        <option value="facial">Facials & Skin Care</option>
+        <option value="bridal">Bridal Packages</option>
+      </select>
+      <br>
+        <button type="submit">Book Now</button>
+      
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Crows Nest Salon. All rights reserved.</p>
+  </footer>
+</body>
+</html>
